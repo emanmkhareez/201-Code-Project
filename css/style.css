@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/384/579/701/flowers-bouquet-tulips-pink-wallpaper-preview.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+nav {
+    background-color: #55595e;
+    height: 70px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 500px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 30 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+li a {
+    color: white;
+}
+
