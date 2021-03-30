@@ -1,8 +1,14 @@
-#  hospital management system.
-## The purpose of the project called "Hospital Management System" is to computerize hospital front office management to develop an easy-to-use, simple, fast and cost-effective program. It deals with collecting patient information, diagnostic details, etc.
+#  guessing game
 
-### Author:eman almkhareez &lujain alabed.
+## This project is in order to ask the user some information about me .
 
- # link and resources:
- https://www.w3schools.com/
- https://www.php.net/
+## The goal of the project:
+I help the user to get to know me more
+
+
+### Author:eman almkhareez 
+
+
+ 
+ 
+
