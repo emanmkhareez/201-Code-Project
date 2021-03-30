@@ -1,7 +1,8 @@
 'use strict'
-let score=0;
-let userName=prompt("what\'s your name")
- 
+
+let score = 0;
+let userName = prompt("what\'s your name")
+
 
 alert("Welcome to my site, "+userName+'\n' +"I want to ask you five questions about me. Please answer these questions with yes or no.without space after that")
 let age = prompt("my age 22 ?").toLowerCase()
@@ -102,9 +103,56 @@ else if(home=='no'||home=='n'){
 else{
     alert("answer with yes/y or no/n")
 }
-alert("Thank you for trying "+'\n'+"Your score is "+score+ "/ 5")
 
 
+alert(userName + " ,We will play a game now. I want you to guess my favorite number by way of entering a number from 0 to 10. You only have four attempts. Start now");
 
+for (let i = 0; i < 4; i++) {
+    
+let number = prompt("enter my favorite number from 0 to 10")
+if (number == 7) {
+    alert("Wow, this is my favorite number " + number)
+    score++;
+    break;
+}
+    
+    
+    else if (number > 7) {
+        alert("The correct answer is less than " + number)
+        
+
+    }
+     else if (number < 7) {
+        alert("The correct answer  bigger is  than " + number)
+       
+    }
+
+     
+
+}
+alert(" my favorite number  7  thx For your attempt")
+alert("The last question about me ")
+
+ alert("Now I will show you a set of materials and try to choose my most favorite subject. You have six attempts, start now")
+
+ let course=["c++ ","network ","data mainig"," database ", " oracle "," data strcure "," object "," file strcure ","  GUI  "]
+
+//let course2=prompt("Choose one of the following "+course)
+
+ for(let i=5;i>=0;i--){
+ let course2=prompt("Choose one of the following :   "+course)
+
+  if(course2=="data mainig"){
+     alert("Wow, this is my favorite course  " + course2)
+     score++;
+     break;
+ }else(
+     
+     alert("Try again, you have "+i+ " attempts")
+ )
+
+    
+ }
+ alert("Thank you for trying "+'\n'+"Your score is "+score+ "/ 7")
 
 
