@@ -30,28 +30,35 @@ function AgeFun(){
 
 AgeFun();
 
-let favoriteDish = prompt("my favorite dish is mansaf ?").toLowerCase();
+// Q2
+    function favoriteFood(){
+    let favoriteDish = prompt("my favorite dish is mansaf ?").toLowerCase();
 
- if (favoriteDish == 'yes' || favoriteDish == 'y') {
+    if (favoriteDish == 'yes' || favoriteDish == 'y') {
 
-    alert("your answer is wrong   " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ")
+        alert("your answer is wrong   " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ")
 
-    console.log("your answer is wrong   " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ");
+        console.log("your answer is wrong   " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ");
 
+    }
+
+
+    else if (favoriteDish== 'no' || favoriteDish == 'n') {
+    alert("your answer is correct  = " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ")
+
+        console.log("your answer is correct  = " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ");
+        score++
+
+
+    }
+    else{
+        alert("answer with yes/y or no/n")
+    }
 }
 
+favoriteFood()
+// Q3
 
- else if (favoriteDish== 'no' || favoriteDish == 'n') {
-  alert("your answer is correct  = " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ")
-
-    console.log("your answer is correct  = " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ");
-    score++
-
-
-}
-else{
-    alert("answer with yes/y or no/n")
-}
   let color = prompt("my favorite color is red  ?").toLowerCase();
 if (color == 'no' || color == 'n') {
     alert("your answer is correct  = " + color.toLowerCase()+" my favorite color is black ")
