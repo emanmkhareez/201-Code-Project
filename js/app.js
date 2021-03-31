@@ -131,28 +131,35 @@ if (number == 7) {
 
 }
 alert(" my favorite number  7  thx For your attempt")
+let course = ["c++", "network", "data mining", "database", " oracle", "data strcure", "object", "file strcure", "GUI"]
+
 alert("The last question about me ")
+let attempts = 6
+for (let j = 0; j < attempts; j++) {
+    let course2 = prompt("Choose the favorite course  you have 6 attempts   ");
+    for (let i = 0; i < course.length; i++) {
+        //console.log(course[i]);
+        if (course2 === course[i]) {
+            score++
+            console.log(course[i]);
+            alert("the correct here  the answer " + course)
+            j=6
+            break;
+        }
+    }
 
- alert("Now I will show you a set of materials and try to choose my most favorite subject. You have six attempts, start now")
 
- let course=["c++ ","network "," data mining "," database ", " oracle "," data strcure "," object "," file strcure ","  GUI  "]
- 
+    if (j == 5) {
+        alert("sorry no more tries " + course)
+    } else if (j < 6) {
+        alert('this is wrong ')
 
-//let course2=prompt("Choose one of the following "+course)
+    }
 
- for(let i=5;i>=0;i--){
- let course2=prompt("Choose one of the following :   "+course)
+}
+alert("Thank you for trying "+'\n'+"Your score is "+score+ "/ 7")
 
-  if(course2=="data mining"){
-     alert("Wow, this is my favorite course  " + course2)
-     score++;
-     break;
- }else(
-     
-     alert("Try again, you have "+i+ " attempts")
- )
 
-    
- }
- alert("Thank you for trying "+'\n'+"Your score is "+score+ "/ 7")
- 
+
+
+
