@@ -127,32 +127,36 @@ function homeFun (){
 }
 homeFun ()
 // Q6
-alert(userName + " ,We will play a game now. I want you to guess my favorite number by way of entering a number from 0 to 10. You only have four attempts. Start now");
+function favoriteNumber (){
+    alert(userName + " ,We will play a game now. I want you to guess my favorite number by way of entering a number from 0 to 10. You only have four attempts. Start now");
 
-for (let i = 0; i < 4; i++) {
-    
-let number = prompt("enter my favorite number from 0 to 10")
-if (number == 7) {
-    alert("Wow, this is my favorite number " + number)
-    score++;
-    break;
-}
-    
-    
-    else if (number > 7) {
-        alert("The correct answer is less than " + number)
+    for (let i = 0; i < 4; i++) {
+        
+    let number = prompt("enter my favorite number from 0 to 10")
+    if (number == 7) {
+        alert("Wow, this is my favorite number " + number)
+        score++;
+        break;
+    }
+        
+        
+        else if (number > 7) {
+            alert("The correct answer is less than " + number)
+            
+
+        }
+        else if (number < 7) {
+            alert("The correct answer  bigger is  than " + number)
+        
+        }
+
         
 
     }
-     else if (number < 7) {
-        alert("The correct answer  bigger is  than " + number)
-       
-    }
-
-     
-
+    alert(" my favorite number  7  thx For your attempt")
 }
-alert(" my favorite number  7  thx For your attempt")
+favoriteNumber ()
+// Q7
 let course = ["c++", "network", "data mining", "database", " oracle", "data strcure", "object", "file strcure", "GUI"]
 
 alert("The last question about me ")
