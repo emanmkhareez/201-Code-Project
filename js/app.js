@@ -58,23 +58,26 @@ AgeFun();
 
 favoriteFood()
 // Q3
+function favoriteColor(){
+    let color = prompt("my favorite color is red  ?").toLowerCase();
+    if (color == 'no' || color == 'n') {
+        alert("your answer is correct  = " + color.toLowerCase()+" my favorite color is black ")
 
-  let color = prompt("my favorite color is red  ?").toLowerCase();
-if (color == 'no' || color == 'n') {
-    alert("your answer is correct  = " + color.toLowerCase()+" my favorite color is black ")
+        console.log("your answer is correct  = " + color.toLowerCase()+" my favorite color is black ");
+        score++
 
-    console.log("your answer is correct  = " + color.toLowerCase()+" my favorite color is black ");
-    score++
+    }
+    else  if (color == 'yes' || color == 'y'){
+        alert("your answer is wrong   " + color.toLowerCase()+ "  my favorite color is black ")
+        console.log("your answer is wrong   " + color.toLowerCase()+ "  my favorite color is black ");
 
+    }
+    else{
+        alert("answer with yes/y or no/n")
+    }
 }
-else  if (color == 'yes' || color == 'y'){
-    alert("your answer is wrong   " + color.toLowerCase()+ "  my favorite color is black ")
-    console.log("your answer is wrong   " + color.toLowerCase()+ "  my favorite color is black ");
-
-}
-else{
-    alert("answer with yes/y or no/n")
-}
+favoriteColor()
+// Q4
 let allergic = prompt("Do I have a spring allergy?").toLowerCase();
 
  if (allergic == 'yes' || allergic == 'y') {
