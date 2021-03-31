@@ -33,8 +33,6 @@ let favoriteDish = prompt("my favorite dish is mansaf ?").toLowerCase();
 
     console.log("your answer is wrong   " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ");
 
-    var NumBooks;
-    cookieCount *= 5;
 }
 
 
@@ -157,9 +155,4 @@ alert("The last question about me ")
     
  }
  alert("Thank you for trying "+'\n'+"Your score is "+score+ "/ 7")
- var gopher = 1;
- if (gopher < 10) 
-    console.log(gopher);
- } else {
-   console.log('potato');
- }
+ 
