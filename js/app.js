@@ -1,30 +1,35 @@
 
 
 let score = 0;
+
 let userName = prompt("what\'s your name")
+// Q1
+function AgeFun(){
+    alert("Welcome to my site, "+userName+'\n' +"I want to ask you five questions about me. Please answer these questions with yes/y or no/n .without space after that")
+    let age = prompt("my age 22 ?").toLowerCase()
+
+    if (age=='yes'||age=='y') {
+        alert("your answer is correct  = " + age.toLowerCase()+" my age =22")
 
 
-alert("Welcome to my site, "+userName+'\n' +"I want to ask you five questions about me. Please answer these questions with yes/y or no/n .without space after that")
-let age = prompt("my age 22 ?").toLowerCase()
-
-if (age=='yes'||age=='y') {
-    alert("your answer is correct  = " + age.toLowerCase()+" my age =22")
+        console.log("your answer is correct  = " + age.toLowerCase()+" my age =22");
+        score++
 
 
-    console.log("your answer is correct  = " + age.toLowerCase()+" my age =22");
-    score++
+    } 
+    else if (age == 'no' || age == 'n') {
+        alert("your answer is wrong   = " + age.toLowerCase()+" my age=22" )
 
+        console.log("your answer is wrong   = " + age.toLowerCase()+" my age=22" );
 
-} 
- else if (age == 'no' || age == 'n') {
-    alert("your answer is wrong   = " + age.toLowerCase()+" my age=22" )
-
-    console.log("your answer is wrong   = " + age.toLowerCase()+" my age=22" );
-
-} 
-else{
-    alert("answer with yes/y or no/n")
+    } 
+    else{
+        alert("answer with yes/y or no/n")
+    }
 }
+
+AgeFun();
+
 let favoriteDish = prompt("my favorite dish is mansaf ?").toLowerCase();
 
  if (favoriteDish == 'yes' || favoriteDish == 'y') {
