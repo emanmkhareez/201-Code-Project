@@ -78,24 +78,30 @@ function favoriteColor(){
 }
 favoriteColor()
 // Q4
-let allergic = prompt("Do I have a spring allergy?").toLowerCase();
+function allergicFun(){
+    
+    let allergic = prompt("Do I have a spring allergy?").toLowerCase();
 
- if (allergic == 'yes' || allergic == 'y') {
-    alert("your answer is correct  = " + allergic.toLowerCase()+" i have allergic ")
+    if (allergic == 'yes' || allergic == 'y') {
+        alert("your answer is correct  = " + allergic.toLowerCase()+" i have allergic ")
 
-    console.log("your answer is correct  = " + allergic.toLowerCase()+" i have allergic ");
-    score++
+        console.log("your answer is correct  = " + allergic.toLowerCase()+" i have allergic ");
+        score++
 
-}
-
- else if(allergic == 'no'  || allergic == 'n'){
-
-    alert("your answer is wrong   = " + allergic.toLowerCase()+" i have allergic ")
-    console.log("your answer is wrong   = " + allergic.toLowerCase()+" i have allergic ");}
-
-    else{
-        alert("answer with yes/y or no/n")
     }
+
+    else if(allergic == 'no'  || allergic == 'n'){
+
+        alert("your answer is wrong   = " + allergic.toLowerCase()+" i have allergic ")
+        console.log("your answer is wrong   = " + allergic.toLowerCase()+" i have allergic ");}
+
+        else{
+            alert("answer with yes/y or no/n")
+        }
+}
+allergicFun()
+// Q5 
+
  let home = prompt("Do I like staying home?").toLowerCase();
 
 
