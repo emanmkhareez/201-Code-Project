@@ -135,7 +135,7 @@ alert("The last question about me ")
 
  alert("Now I will show you a set of materials and try to choose my most favorite subject. You have six attempts, start now")
 
- let course=["c++ ","network ","data mainig"," database ", " oracle "," data strcure "," object "," file strcure ","  GUI  "]
+ let course=["c++ ","network "," data mining "," database ", " oracle "," data strcure "," object "," file strcure ","  GUI  "]
  
 
 //let course2=prompt("Choose one of the following "+course)
@@ -143,7 +143,7 @@ alert("The last question about me ")
  for(let i=5;i>=0;i--){
  let course2=prompt("Choose one of the following :   "+course)
 
-  if(course2=="data mainig"){
+  if(course2=="data mining"){
      alert("Wow, this is my favorite course  " + course2)
      score++;
      break;
