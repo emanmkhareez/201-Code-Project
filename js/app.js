@@ -1,10 +1,10 @@
-'use strict'
+
 
 let score = 0;
 let userName = prompt("what\'s your name")
 
 
-alert("Welcome to my site, "+userName+'\n' +"I want to ask you five questions about me. Please answer these questions with yes or no.without space after that")
+alert("Welcome to my site, "+userName+'\n' +"I want to ask you five questions about me. Please answer these questions with yes/y or no/n .without space after that")
 let age = prompt("my age 22 ?").toLowerCase()
 
 if (age=='yes'||age=='y') {
@@ -33,6 +33,8 @@ let favoriteDish = prompt("my favorite dish is mansaf ?").toLowerCase();
 
     console.log("your answer is wrong   " + favoriteDish.toLowerCase()+" my favorite Dish=dawali ");
 
+    var NumBooks;
+    cookieCount *= 5;
 }
 
 
@@ -136,6 +138,7 @@ alert("The last question about me ")
  alert("Now I will show you a set of materials and try to choose my most favorite subject. You have six attempts, start now")
 
  let course=["c++ ","network ","data mainig"," database ", " oracle "," data strcure "," object "," file strcure ","  GUI  "]
+ 
 
 //let course2=prompt("Choose one of the following "+course)
 
@@ -154,5 +157,9 @@ alert("The last question about me ")
     
  }
  alert("Thank you for trying "+'\n'+"Your score is "+score+ "/ 7")
-
-
+ var gopher = 1;
+ if (gopher < 10) 
+    console.log(gopher);
+ } else {
+   console.log('potato');
+ }
