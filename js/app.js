@@ -101,31 +101,32 @@ function allergicFun(){
 }
 allergicFun()
 // Q5 
-
- let home = prompt("Do I like staying home?").toLowerCase();
-
-
- if(home=='yes' ||home=='y'){
-    alert("your answer is correct  = " + home.toLowerCase()+"I like to stay at home ")
-
-    console.log("your answer is correct  = " + home.toLowerCase()+"I like to stay at home ");
-    score++
+function homeFun (){
+    let home = prompt("Do I like staying home?").toLowerCase();
 
 
+    if(home=='yes' ||home=='y'){
+        alert("your answer is correct  = " + home.toLowerCase()+"I like to stay at home ")
 
-    
-} 
-else if(home=='no'||home=='n'){
-    alert("your answer is wrong  = " + home.toLowerCase()+" I like to stay at home")
+        console.log("your answer is correct  = " + home.toLowerCase()+"I like to stay at home ");
+        score++
 
-    console.log("your answer is wrong  = " + home.toLowerCase()+" I like to stay at home");
 
+
+        
+    } 
+    else if(home=='no'||home=='n'){
+        alert("your answer is wrong  = " + home.toLowerCase()+" I like to stay at home")
+
+        console.log("your answer is wrong  = " + home.toLowerCase()+" I like to stay at home");
+
+    }
+    else{
+        alert("answer with yes/y or no/n")
+    }
 }
-else{
-    alert("answer with yes/y or no/n")
-}
-
-
+homeFun ()
+// Q6
 alert(userName + " ,We will play a game now. I want you to guess my favorite number by way of entering a number from 0 to 10. You only have four attempts. Start now");
 
 for (let i = 0; i < 4; i++) {
