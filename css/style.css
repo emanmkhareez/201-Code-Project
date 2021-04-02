@@ -1,10 +1,4 @@
-body{
-    background-color: rgb(228, 145, 200);
-    
-    background-repeat:no-repeat;
-    background-size: cover;
-    
-}
+
 nav {
     background-color: #55595e;
     height: 70px;
@@ -27,4 +21,62 @@ li a {
 }li{
     padding: 20px;
 }
+#d1{
+    background-color:#611f1f;
+    width: 100px;
+    height: 1000px;
+    position: relative;
+    color: black;
+    
+} 
+#id2{
+    
+    margin-top: -600px;
+   position: relative;
+  width: 620px;
+  left:100px;
+    color: black;
+   
+    background-color:#ce6464;
+    font-size: 20px;
+}
+#d3{
+    float: right;
+    margin-top: -900px;
+   position: relative;
+   right: 797px;
+   font-size: 20px;
+    width=300px;
+    background-color: blanchedalmond;
+    
+}
+#info{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    width: 60px;
+    background-color: rgb(236, 215, 129);
+    font-family: 'Josefin Sans', sans-serif;
 
+}
+#courses{
+    position: relative;
+    top: 400px;
+    left: 20px;
+    width: 80px;
+    background-color: rgb(236, 215, 129);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+main #name{
+    width: 300px;
+    height: 90px;
+    position: relative;
+    left: 700px;
+    top: -950px;
+    font-weight: 300;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(128, 0, 0, 0.568);
+}
